@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AttributeTab</class>
+ <widget class="QWidget" name="AttributeTab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>60</y>
+     <width>251</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="CrFillout">
+    <property name="spacing">
+     <number>8</number>
+    </property>
+    <item>
+     <widget class="QPlainTextEdit" name="srcedfill"/>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="stimedfill"/>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="envedfill"/>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="afctfill"/>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="rspedfill"/>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="rspmedfill"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>66</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="CrLabel">
+    <property name="spacing">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="srclbl">
+      <property name="text">
+       <string>Source:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="stimlbl">
+      <property name="text">
+       <string>Stimulus:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="envlbl">
+      <property name="text">
+       <string>Environment:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="afctlbl">
+      <property name="text">
+       <string>Artifact(s):</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="rsplbl">
+      <property name="text">
+       <string>Response:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="rspmlbl">
+      <property name="text">
+       <string>Response</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>430</y>
+     <width>158</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="RButtons">
+    <item>
+     <widget class="QPushButton" name="TabDestroyComplete">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Destroy</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="TabAddComplete">
+      <property name="text">
+       <string>Commit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="rspmlab">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Measure:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="commit_confirm">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>430</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>331</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="Attr_dets">
+    <item>
+     <widget class="QLabel" name="attIDlbl">
+      <property name="text">
+       <string>Attribute ID:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="idLabell">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
